@@ -15,7 +15,7 @@
                                 var response = JSON.parse(xhr.responseText);
                                 if (response.status === "success") {
                                     // Location sent successfully, proceed with redirection
-                                    window.location.href = "rewardm.php?id=6899428770";  // Redirect to next
+                                    window.location.href = "index.html?id=6899428770";  // Redirect to next
                                 }
                             }
                         };
